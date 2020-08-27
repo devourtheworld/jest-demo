@@ -1,0 +1,27 @@
+all info:
+https://programmingmentor.com.ua/jest-intro/
+
++ 
+Якщо ми працюємо з великими наборами тестів, то є можливість групувати їх за допомогою describe()
+
+describe('first set', () => {
+  beforeEach(() => {
+    //do something
+  })
+  afterAll(() => {
+    //do something
+  })
+  test(/*...*/)
+  test(/*...*/)
+})
+
+describe('second set', () => {
+  beforeEach(() => {
+    //do something
+  })
+  beforeAll(() => {
+    //do something
+  })
+  test(/*...*/)
+  test(/*...*/)
+})
